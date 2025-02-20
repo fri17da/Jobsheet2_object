@@ -14,5 +14,8 @@ public class mahasiswaMain323 {
     mahasiswa323 mhs2 = new mahasiswa323("Annissa Nabila", "2141720160", 3.25, "TI 2L");
     mhs2.updateIpk(3.30);
     mhs2.tampilkanInformasi();
+
+    mahasiswa323 mhsSyafrida = new mahasiswa323("Syafrida Ade Aulia Hakim", "244107060002", 3.75, "SIB 1C");
+    mhsSyafrida.tampilkanInformasi();
     }
 }
