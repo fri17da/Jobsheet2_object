@@ -20,6 +20,7 @@ public class mataKuliah23 {
     }
     void ubahSks(int sksBaru) {
         sks = sksBaru;
+        System.out.println("SKS telah diubah");
     }
     void tambahJam(int jam) {
         jumlahJam += jam;
@@ -30,6 +31,8 @@ public class mataKuliah23 {
         } else {
             this.jumlahJam -= jam;
             System.out.println("Jumlah jam setelah dikurangi: " + jumlahJam);
+            System.out.println("=========================================");
         }
     }
+    
 }
